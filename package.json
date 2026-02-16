@@ -1,18 +1,31 @@
 {
-  "name": "counter-app",
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website with Nuxt 3",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
-  "dependencies": {
-    "vue": "^3.5.24"
-  },
+  "keywords": [
+    "portfolio",
+    "nuxt3",
+    "vue3"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.1",
-    "vite": "^7.2.4"
+    "nuxt": "^4.3.1",
+    "vue": "^3.5.28",
+    "vue-router": "^5.0.2"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@nuxt/image": "^2.0.0",
+    "@vueuse/nuxt": "^14.2.1"
   }
 }
